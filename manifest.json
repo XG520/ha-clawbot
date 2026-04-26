@@ -1,0 +1,13 @@
+{
+  "domain": "ha-clawbot",
+  "name": "微信 ClawBot",
+  "version": "0.1.0",
+  "documentation": "https://github.com/XG520/ha-clawbot",
+  "requirements": ["segno>=1.5.0"],
+  "dependencies": [],
+  "config_flow": true,
+  "platforms": ["text", "notify"],
+  "codeowners": [],
+  "iot_class": "cloud_polling",
+  "quality_scale": "internal"
+}

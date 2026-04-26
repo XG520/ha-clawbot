@@ -1,0 +1,7 @@
+DOMAIN = "ha-clawbot"
+CONF_BOT_TOKEN = "bot_token"
+CONF_BASE_URL = "base_url"
+CONF_ILINK_USER_ID = "ilink_user_id"
+DEFAULT_BASE_URL = "https://ilinkai.weixin.qq.com"
+ENDPOINT_GET_QR = "/ilink/bot/get_bot_qrcode"
+ENDPOINT_GET_QR_STATUS = "/ilink/bot/get_qrcode_status"
