@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "微信 ClawBot 用户名",
+        "description": "请输入一个用于区分此 ClawBot 实例的名称。",
+        "data": {
+          "name": "显示名称"
+        }
+      },
+      "qr": {
+        "title": "扫描微信二维码",
+        "description": "请点击下面的链接打开扫码页面：\n\n![]({qrcode_image})\n\n或打开链接：<{qrcode_page}>\n\n扫码后，请返回此页面并点击“提交”按钮，检查扫码是否成功。",
+        "data": {
+          "scan_url": "扫码链接"
+        }
+      }
+    }
+  },
+  "error": {
+    "cannot_connect": "无法连接到 iLink 服务器，请检查网络。",
+    "scan_pending": "尚未确认扫码，请在微信中扫描二维码并再次提交。"
+  }
+}
